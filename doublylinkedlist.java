@@ -99,7 +99,19 @@ public class doublylinkedlist {
             temp.next.prev=prev;
         }
 
-        
+    
 
+    }
+
+    public void displayRev(){
+        if (head==null){
+            System.out.println("Empty list");
+            return;
+        }
+        Node temp=tail;
+        while (temp!=null){
+            System.out.print(temp.data+"-->");
+            temp=temp.prev;
+        }
     }
 }
