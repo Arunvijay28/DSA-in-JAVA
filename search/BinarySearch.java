@@ -35,6 +35,6 @@ public class BinarySearch {
         System.out.println("Enter target :");
         target=scanner.nextInt();
         summa s = new summa();
-        System.out.println("after binary search"+s.bin(arr,target));
+        System.out.println("after binary search"+target+"index is :"+s.bin(arr,target));
     }
 }

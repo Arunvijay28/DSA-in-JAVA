@@ -99,8 +99,6 @@ public class doublylinkedlist {
             temp.next.prev=prev;
         }
 
-    
-
     }
 
     public void displayRev(){
