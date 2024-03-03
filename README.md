@@ -1,6 +1,6 @@
 # DSA-in-JAVA
 
-## This Repositor contains
+## Contents
 
 ### Linear Data Structure:
   * Arrays
